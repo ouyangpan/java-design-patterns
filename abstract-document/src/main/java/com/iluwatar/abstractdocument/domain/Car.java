@@ -33,6 +33,7 @@ public class Car extends AbstractDocument implements HasModel, HasPrice, HasPart
 
   public Car(Map<String, Object> properties) {
     super(properties);
+    
   }
 
 }
